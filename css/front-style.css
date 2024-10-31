@@ -1,0 +1,220 @@
+#orange-carousel {
+  background-image: url("../img/slide_back.jpg");
+ 
+}
+ 
+
+.carousel-caption{
+  width: 100%;
+  left: 5% !important;
+  right: 5% !important;
+  top: 5px !important;
+  }
+.align-left{
+  text-align: left !important;
+  padding: 0 20px !important;
+}
+
+.carousel-title {
+  margin: 20px 0 10px 0;
+  padding: 0;
+  font-size: 1.5em;
+  color: #fff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  line-height: 1.4em;
+}
+.crousel-subtitle {
+  font-size: 1em;
+  color: #cdff76;
+  margin-bottom: 20px;
+  font-weight: 300;
+  font-family: "Lato", sans-serif;
+}
+
+.list-unstyled {
+    margin-left: 30px !important;
+}
+ 
+.carousel-control{z-index: 999;}
+
+.carousel-inner > .item {
+    position: relative; 
+    -webkit-transition: 0.6s ease-in-out left;
+    -moz-transition: 0.6s ease-in-out left;
+    -o-transition: 0.6s ease-in-out left;
+    transition: 0.6s ease-in-out left;
+    height: 450px;
+}
+.delay-0 {
+  animation-delay: 1s !important; 
+}
+
+.delay-1 {
+  animation-delay: 2s !important;
+}
+
+.delay-2 {
+  animation-delay: 3s !important;
+}
+.delay-3 {
+  animation-delay: 4s !important;
+}
+.delay-4 {
+  animation-delay: 5s !important;
+}
+.delay-5 {
+  animation-delay: 6s !important;
+}
+.delay-6 {
+  animation-delay: 7s !important;
+}
+.delay-7 {
+  animation-delay: 8s !important;
+}
+.delay-8 {
+  animation-delay: 9s !important;
+}
+.delay-9 {
+  animation-delay: 10s !important;
+}
+.delay-10 {
+  animation-delay: 11s !important;
+}
+.delay-11 {
+  animation-delay: 12s !important;
+}
+
+@media (max-width: 767px) {
+  .carousel-indicators {
+    top: 10px !important;
+    bottom: auto !important;
+  }
+  .carousel-title {
+    margin: 10px 0 5px 0;
+    padding: 0;
+    font-size: 2em;
+    line-height: 1.3em;
+  }
+  .crousel-subtitle {
+    font-size: 1.4em;
+  }
+  .carousel-text p {
+    margin-bottom: 10px;
+  }
+  .carousel-list {
+    margin: 5px 0 0 0;
+  }
+  .carousel-list li {
+    font-size: 1.2em;
+    line-height: 1em;
+    margin-bottom: 4px;
+  }
+  .carousel-list li span {
+    padding: 5px;
+  }
+  .carousel-list li i {
+    width: 42px;
+    padding: 5px;
+  }
+  .carousel-control {
+    left: auto;
+    bottom: auto;
+    top: 20px;
+  }
+  .carousel-control.left {
+    right: 50px;
+  }
+  .carousel-control.right {
+    right: 0;
+  }
+}
+/* ---------------------------------------------------- */
+/* Theme Options */
+/* ---------------------------------------------------- */
+
+/*-------------------------------------------------------------------*/
+/* Carousel Images */
+/*-------------------------------------------------------------------*/
+.carousel-images .carousel-indicators {
+  bottom: auto;
+  top: 10px;
+}
+.carousel-images .carousel-control {
+  position: absolute;
+  top: 50%;
+  bottom: auto;
+  height: 50px;
+  left: 20px;
+  width: 50px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  z-index: 90;
+}
+.carousel-images .carousel-control.left {
+  background-image: none;
+  background-repeat: no-repeat;
+  -webkit-filter: none;
+          filter: none;
+}
+
+.carousel-images .carousel-control.right {
+  right: 0;
+  left: auto;
+  background-image: none;
+  background-repeat: no-repeat;
+  -webkit-filter: none;
+          filter: none;
+}
+.carousel-images .carousel-control:hover,
+.carousel-images .carousel-control:focus {
+  color: #ffffff;
+  text-decoration: none;
+  outline: none;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+}
+.carousel-images .carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  left: auto;
+  right: auto;
+  bottom: 0;
+  padding: 20px;
+}
+.carousel-images .carousel-caption.carousel-caption-dark {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.carousel-images .carousel-caption h1,
+.carousel-images .carousel-caption h2,
+.carousel-images .carousel-caption h3,
+.carousel-images .carousel-caption h4,
+.carousel-images .carousel-caption h5,
+.carousel-images .carousel-caption h6 {
+  color: #fff;
+  margin: 0 0 10px 0;
+}
+.carousel-images .carousel-caption h1 a,
+.carousel-images .carousel-caption h2 a,
+.carousel-images .carousel-caption h3 a,
+.carousel-images .carousel-caption h4 a,
+.carousel-images .carousel-caption h5 a,
+.carousel-images .carousel-caption h6 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/**/
+@media (min-width: 992px) {
+	.carousel-inner .item {
+		padding: 5px 0 50px;
+	}
+}
+
+
+
+
+

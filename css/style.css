@@ -1,0 +1,29 @@
+.field-group .bullets,
+.field-group .rmv-button{
+    float:left;
+}
+  #orange_slider_image #slider-image .upload-block{
+    padding: 10px 0;
+    margin: 10px 0;
+  }
+  #orange_slider_image .upload-block .preview{
+    float: left;
+  }
+.field-group .rmv-button {
+    margin-top: 23px;
+}
+.image-block {
+    position: relative;
+}
+ .image-block .remove {
+    background: none repeat scroll 0 0 red;
+    border-radius: 50%;
+    color: #fff;
+    font-weight: bold;
+    left: 190px;
+    padding: 3px 8px;
+    position: absolute;
+    top: -12px;
+}
+
+.orange-slider-settings label{font-size:10px;}
